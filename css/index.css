@@ -88,6 +88,10 @@ footer a {
   color: white;
   text-decoration: none;
 }
+footer.center{
+  margin-top: 20px;
+  text-align: center;
+}
 
 @media (max-width: 650px) {
   header {
@@ -111,10 +115,20 @@ footer a {
     margin: 50px 0px 30px;
     font-size: 4vw;
   }
+
 }
 @media (max-width: 900px) {
+
   main img {
     width: 90%;
   }
 }
 /* coded by : Marah Kinana */
+@media (max-width: 414px){
+  main{
+    margin: 0 0;
+  }
+  footer.center{
+    margin-top: 0;
+  }
+}
